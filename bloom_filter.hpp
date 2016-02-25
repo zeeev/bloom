@@ -165,6 +165,8 @@ protected:
 
 public:
 
+  friend class bloomWrapper;
+  
    bloom_filter()
    : bit_table_(0),
      salt_count_(0),
